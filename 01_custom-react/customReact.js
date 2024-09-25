@@ -44,4 +44,4 @@ const reactElement = {
 
 const mainContainer = document.getElementById('root')
 
-customRender(reactElement, mainContainer)
+customRender(reactElement, mainContainer) 
