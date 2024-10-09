@@ -55,6 +55,10 @@ function App() {
               convert()
             }}
           >
+          {/* 
+            In the form we have fire an event and we know that whenever the form is submitted then it should go to some URL. But here we want to prevent it from submission. We want that the convert() method should be called. 
+            So that we give the preventDefault().
+          */}
             <div className="w-full mb-1">
               <InputBox
                 label="From"
